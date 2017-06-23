@@ -1,0 +1,15 @@
+JavaSilverで分かったこと
+
+dobuleのゼロ割は割られるほうによって変化する
+0 > infinity
+0 = NaN
+0 < -infinity
+
+static final int i;
+iは実行される時に初期化されて、再代入不可能になる
+
+public static void main(String... v){}
+可変長引数の存在を知った
+
+new String以外でStringを作ったかつ同じ文字の場合は
+同じ個所を参照する
